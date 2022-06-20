@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.proimage {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/product/B.jpg");
+
+  
+  height: 300px; width: 350px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.protext {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.col{
+    color: black;
+}
+
+/* The hero image */
+.gainimage {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/product/F.jpg");
+  
+    
+    height: 300px; width: 350px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .gaintext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* The hero image */
+.preimage {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/product/G.jpg");
+  
+    
+    height: 300px; width: 350px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .pretext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .gap{
+      margin-top: 5%;
+      margin-bottom: 2%;
+      color: black;
+      font-weight: 700;
+      
+  }
+
+  .gap2{
+      margin-top: 2%;
+  }
+/*navbarlogin link colour change*/
+  .navco{
+    color:black;
+    
+    font-family: 'Abril Fatface';
+  }
+  /*navbar colour change*/
+.mainclr{
+    background-color:rgba(243, 59, 27, 0.808);
+    color: black;
+    color: black;
+}
+
+.pt{
+    font-size: 30px;
+    color: papayawhip;
+
+}
+
+
+
+
+ 
